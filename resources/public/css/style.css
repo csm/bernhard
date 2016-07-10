@@ -1,0 +1,40 @@
+body {
+    font-family: "Consolas", "Source Code Pro", fixed;
+    color: black;
+    background-color: white;
+}
+
+div#title {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding-bottom: 10pt;
+}
+
+div#bernhard {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(-1);
+}
+
+div#bernhard img {
+    width: 225px;
+    height: 246px;
+}
+
+div#tab-bar {
+    width: 150pt;
+    float: left;
+}
+
+.tab {
+    padding: 2pt;
+    font-weight: bold;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
